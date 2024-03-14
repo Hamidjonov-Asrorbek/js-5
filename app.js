@@ -153,3 +153,91 @@
 //     return newArr
 // }
 // console.log(masofa_son(son1,son2));
+
+
+// function namuna(arr){
+//     let array = [];
+//     arr.forEach((e,index) => {
+//         array.push(e+index);
+//     });
+//     return array
+// }
+// console.log(namuna([1,2,3,4,5]));
+
+
+// 1
+
+// function isEmpty(obj){
+//     return Object.keys(obj).length == 0
+// }
+
+// let obj = {
+//      John: 100, 
+//      Ann: 160, 
+//      Pete: 130 
+// }
+
+// console.log(isEmpty(obj));
+
+// 2
+
+// function xisoblagich(obj){
+//     let count = 0
+//     for(i in obj){
+//         count+=obj[i]
+//     }
+//     return count
+// }
+// let obj = {
+//      John: 100, 
+//      Ann: 160, 
+//      Pete: 130 
+// }
+// console.log(xisoblagich(obj));
+
+
+// 3
+
+// function x2(obj) {
+//     for (let i in obj) {
+//         if (typeof obj[i] === 'number') {
+//             obj[i] *= 2;
+//         }
+//     }
+//     return menu
+// }
+
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
+
+// console.log(x2(menu));
+
+// 4
+
+// function arr_replace(arr){
+//     newArr = [];
+//     arr.forEach((e) => {
+//         newArr.unshift(e);
+//     });
+//     return newArr
+// }
+// console.log(arr_replace([5, 2, 1, -10, 8]));
+
+
+// 5
+
+// let newArr = [];
+// function inputNumber(son){
+//     return newArr
+// }
+// let son = +prompt("Son kiriting")
+
+// do {
+//     inputNumber(son);
+//     newArr.push(son);
+// } while (isNaN(son)==false);
+
+// console.log(inputNumber(son));
